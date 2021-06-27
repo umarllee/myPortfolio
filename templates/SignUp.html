@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+	<title> Sign Up</title>
+	<link rel="stylesheet" href=" {% static 'SignUp.css' %}">
+	<link rel="shortcut icon " href="https://static.thenounproject.com/png/6478-200.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Gulchohra Umarli, gulchohra.umarli.sh@gmail.com">
+</head>
+
+<body>
+
+
+	<main>
+		<form action="Post">
+
+			<div id="UserName">
+				<strong> User name:</strong><br>
+				<input type="text" placeholder="User name..." autocomplete="off" >
+			</div>
+			 
+			<div id="Question"> Do you already have an account? </div>
+			<a href="{% url 'signin' %}" target="_blank"> 
+				<div id="signIn"> <strong> Sign In </strong> </div>
+			</a>
+
+		    <div id="E-mail">
+				<strong> E-mail:</strong> <br>
+				<input type="text" placeholder="E-mail..." autocomplete="off" required="">
+
+			</div>
+
+		    <div id="Password">
+				<strong> Password:</strong>  <br>
+				<input type="text" placeholder="Password..." autocomplete="off" required="">
+			</div>
+
+			<div id="Submit">
+				<input type="submit" name="Submitt" value="Sign Up">
+			</div>
+
+		</form>
+	</main>
+
+
+
+</body>
+</html>

@@ -1,0 +1,169 @@
+body{
+    background-image: url(1d.jpg);
+}
+#CommonHeaderDiv{
+    width: 1320px;
+    height: 50px ;
+    
+}
+
+#MyPortfolio{
+    color: #FFDE00 ;
+    font-size: 18px; 
+    float: left; 
+    position: absolute;
+    animation: myportfolio  3s linear 0s infinite alternate;
+} 
+#MyPortfolio:hover{
+    cursor: default;
+}
+@keyframes myportfolio{ 
+
+   from{ top: 20px; left: 10px;}
+   to{ top:20px ;left:10px ;transform: rotateZ(-10deg);}
+
+   
+}
+
+ a.HomeSkillsWorks_Links:link  , a.HomeSkillsWorks_Links:visited{
+     color: #c4c4c4 ;
+     text-align: center;
+     text-decoration: none;
+     font-size: 23px;
+ }
+ a.HomeSkillsWorks_Links:hover{
+     color: #ff4300;
+     font-size: 20px;
+     transition: 0.7s;
+
+ }
+ a.HomeSkillsWorks_Links:active{
+     color:#00bd58 ;
+ }
+ #Home_Skills_Works_{
+    float: left;
+    margin: 15px 25px 0 0;
+ }
+
+#PersonalInfo{
+    width: 550px;
+    color:#FFDE00 ;
+    font-size: 30px;
+    margin: 260px 20px 5px 10px;
+    padding: 0 0 0 10px;
+}
+
+#PersonalInfo:hover{
+ cursor: default;
+}
+
+#HiParagraf{
+    margin: 0 0 0 0 ;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+#NameParagraf{
+    font-size: 35px;
+    margin: 0 20px 0 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr{
+    height: 1px;
+    width: 530px;
+    background-color:#FFDE00 ;
+    margin: -20px 0 20px 0;
+}
+
+a.Cv:link  ,  a.Cv:visited{
+    color: #c4c4c4 ;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+a.Cv:hover{
+   color:#867500 ;
+   font-size: 18px;
+}
+a.Cv:active{
+   color: #760000; ;
+}
+
+#TextCv{
+    color: #c4c4c4;
+    font-size: 20px;
+    margin: 10px 5px 10px 10px;
+    float: left;
+}
+
+#CvIcon{
+    width: 60px ;
+    height: 20px;
+    padding: 5px;
+    color: #c4c4c4;
+    font-size: 20px ;
+    margin: 10px 10px 10px 5px;
+    background: #00bd58;
+    border-radius: 4px;
+    float:left;
+
+}
+
+
+#TextContact{
+    color: #c4c4c4;
+    font-size: 20px;
+    margin: 10px 5px 0px 10px;
+    clear: both;
+    float: left;
+    
+}
+#ContactIcon{
+    width: 86px ;
+    height: 20px;
+    padding: 5px;
+    color: #c4c4c4;
+    font-size: 20px ;
+    margin: 10px 10px 0 5px;
+    background: #00bd58;
+    border-radius: 4px;
+    float:left;
+    
+
+}
+
+#CreatedBy{
+    width: 300px;
+    height: 15px;
+    color: #c4c4c4;
+    font-family: 'Trebuchet MS', sans-serif;
+    float: left;
+    margin: 100px 0 5px 480px  ;
+    
+}
+
+#Social_Networks_div{
+    width: 230px;
+    height: 20px;
+    margin: -60px 10px 0 210px;
+    float: right;
+    clear: both;
+}
+
+a.Social_Networks_links:link , a.Social_Networks_links:visited  {
+    color: #c4c4c4 ;
+     text-decoration: none;
+     text-align: center;
+     font-size: 20px;
+}
+
+a.Social_Networks_links:hover {
+    color: #FFDE00;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+a.Social_Networks_links:active{
+  color: green;
+} 

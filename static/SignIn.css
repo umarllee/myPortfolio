@@ -1,0 +1,116 @@
+body{
+    background: #006560;
+    background-image: url(backgr.jpg);
+    background-repeat: no-repeat;
+}
+
+#Question{
+    width: 230px;
+    height: 30px;
+    font-size: 21px;
+    text-align: center;
+    color: #00bd58;
+    float: left;
+    margin: 10px 0 0 980px;
+}
+
+#signUp{
+    width: 80px;
+    height: 30px;
+    font-size: 21px;
+    text-align: center;
+    background: #727272;
+    color: #00bd58;
+    border-radius: 10px;
+    margin: 10px 0 70px 0;
+    float: left;
+ }
+
+ #signUp:hover{
+    background: #00bd58;
+    color: #4b4b4b;
+    width: 85px;
+    height: 30px;
+    padding: 3px 0 0 0; 
+    transition: 0.4s;
+}
+
+a:link  , a:visited{
+    color: #c4c4c4 ;
+    text-align: center;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+#UserName{
+    width: 390px;
+    height: 110px;
+    border-radius: 10px;
+    text-align: center;
+    border: 4px double #00a44c;
+    font-size: 25px;
+    margin: 100px 15px 40px 450px ;
+    clear: both;
+   
+}
+
+#UserName:hover,#Password:hover{
+    width: 393px;
+    height: 113px;
+    background: #969696;
+    transition: 0.7s;
+}
+
+#Password{
+    width: 390px;
+    height: 110px;
+    border: 4px double #00a44c;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 10px;
+    margin: 0 15px 40px 450px ;
+    padding: 10px 0 0 0;
+    clear: both;
+ }
+
+ 
+
+input[type=text]{
+    width: 200px;
+    height: 30px;
+    margin: 10px 0 20px 0;
+    font-size: 16px;
+    border: 0;
+    border-radius: 6px;
+    background: #00a44c;
+}
+
+input[type=text]:hover{
+    width: 202px;
+    height: 32px;
+    transition: 0.4px;
+    background: #727272;
+}
+
+::placeholder{
+   font-size: 16px;
+   color: black;
+   padding: 0 0 0 5px;
+}
+
+input[type="submit"]{
+
+    width: 150px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #00a44c ;
+    margin: 0 0 0 580px;
+
+ }
+
+ input[type="submit"]:hover{
+     width: 155px;
+     height: 40px;
+     transition: 0.3s;
+ }

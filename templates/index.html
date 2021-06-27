@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+        <title>Umarli Gulchohra</title>
+        <link rel="stylesheet" type="text/css" href=" {% static 'Portfolio.css' %}">
+        <link rel="shortcut icon" href="https://pngimg.com/uploads/letter_g/letter_g_PNG62.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta charset="utf-8">
+        <meta name="robots"  content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Language" content="en-Az">
+       
+ 
+</head>
+ 
+<body>
+  
+<header> 
+     <div id="CommonHeaderDiv">
+    <div id="MyPortfolio">
+      <i class="fa fa-briefcase"></i>  MyPortfolio
+    </div>
+
+    <div style="float: left; margin: 15px 25px 0 0">
+      <a href="#" class="HomeSkillsWorks_Links"  style="margin: 0 0 0 750px">   <i class="fa fa-home"></i> <b> Home </b>    </a>
+      
+    </div>
+     
+    <div id="Home_Skills_Works_">
+     <a href="{% url 'skills' %}" class="HomeSkillsWorks_Links" target="_blank"> <i class="fa fa-fire"></i> <b> My Skills </b>    </a>
+    </div>
+
+    <div id="Home_Skills_Works_" >
+     <a href="{% url 'works' %}" class="HomeSkillsWorks_Links" target="_blank">  <i class="fa fa-lightbulb-o"></i> <b> My Works </b>   </a>
+    </div>
+
+    <div  id="Home_Skills_Works_">
+     <a href="{% url 'about' %}" class="HomeSkillsWorks_Links" target="_blank"> <i class="fa fa-id-card-o"></i> <b> About me </b>   </a>
+    </div>
+  </div>
+
+</header>
+ 
+<main>
+    <div id="PersonalInfo">
+
+      <p id="HiParagraf">
+        <b> Hi, my name is </b>
+      </p>
+
+      <p id="NameParagraf"> 
+        <b> Gulchohra Umarli! </b> 
+      </p>
+
+       <br><hr>
+
+    </div>
+
+
+  </main>
+
+  <div id="TextCv">
+    You can look at my CV from here: 
+    
+  </div>
+
+  <div id="CvIcon"> 
+    <a href="{% url 'onlinecv' %}" class="Cv" target="_blank"> <i class="fa fa-folder-open " ></i> CV  </a>
+  </div>
+     <br> <br> <br>
+    
+
+    <footer>
+    <div id="TextContact">
+     Contact with me:  
+      
+    </div>
+
+    <div id="ContactIcon"> 
+      <a href="{% url 'contact' %}" class="Cv" target="_blank" >  <i class="fa fa-phone-square"></i> Contact  </a>
+    </div>
+
+    <div id="Social_Networks_div">
+      <nav> 
+        <a href="https://www.instagram.com/umarllee/" class="Social_Networks_links" target="_blank"> <i class="fa fa-instagram"></i> Instagram | </a>  
+        <a href="https://www.facebook.com/gulchohra.umarli/" class="Social_Networks_links" target="_blank"> <i class="fa fa-facebook"></i> Facebook </a> 
+        <div style="width: 240px; height: 20px; text-align: center; margin: 10px 0 0 0"> <a href="https://twitter.com/umarllee" class="Social_Networks_links" target="_blank"> <i class="fa fa-twitter"></i> Twitter  </a>  </div>
+         
+      </nav>
+    </div>
+     
+    <div id="CreatedBy">
+        Created by Umarli | <i class="fa fa-copyright"></i>  All rights reserved
+    </div>
+  </footer>
+
+
+</body>
+</html>

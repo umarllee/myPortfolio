@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+	<title> Sign In</title>
+	<link rel="stylesheet" href="{% static 'SignIn.css' %} ">
+	<link rel="shortcut icon " href="https://iconarchive.com/download/i91933/icons8/windows-8/User-Interface-Login.ico">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Gulchohra Umarli, gulchohra.umarli.sh@gmail.com">
+</head>
+
+<body>
+
+    <main>
+		<form action="Post">
+			 
+			<div id="Question"> Don't have an account ? </div>
+			<a href="{% url 'signup' %}" target="_blank"> 
+				<div id="signUp"> <strong> Sign Up </strong> </div>
+            </a>
+
+            <div id="UserName">
+				<strong> User name:</strong><br>
+				<input type="text" placeholder="User name..." autocomplete="off" >
+            </div>
+            
+            <div id="Password">
+				<strong> Password:</strong>  <br>
+				<input type="text" placeholder="Password..." autocomplete="off" required="">
+            </div>
+            
+            <div id="Submit">
+				<input type="submit" name="Submitt" value="Sign In">
+			</div>
+            
+        </form>
+    </main>
+
+</body>
+</html>

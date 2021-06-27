@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+{% load static %}
+<html> 
+<head>
+    <title>filmizle.com</title>
+    <link rel="stylesheet" href=" {% static 'film.css' %} ">
+<meta charset="utf-8">
+<meta name="title" content="WOW dizi ve film sitesi">
+<meta name="description" content="Siz buradan rahatliqla sevimli dizi ve filmlerinizi izleye ve ya yukleye bilersiniz. Xos izlemeler...">
+<meta name="robots"  content="index,follow">
+<meta http-equiv="Content-Language" content="az-Az">
+\
+<style>
+
+
+</style>
+
+</head>
+<body> 
+
+ <!--Websayta registirasiya ve ya daxil olmaq-->
+<div>   
+<div class="signUpIn" > <a href="" class="sign"> Sign up </a></div>
+ <div class="signUpIn" style="float: left"> <a href="" class="sign"> Sign in </a> </div>
+</div>
+
+<!--Sehifenin logosu-->
+<div class="logo" > <img src=" {% static 'logo.png' %}"></div>     
+  
+<!--Search axtaris buttonu-->
+<div class="search">
+<form class="example">
+<input type="search" name="" placeholder="Film ve ya oyuncu adı girin.">
+<input type="submit" value="Go"></input>
+</form>
+</div>
+
+
+<!--Video izlemek ucun ekran ve kenarligi-->
+<div class="videoEkranKenarligi">
+<div class="obyekt1">  <a href="" class="keyfiyyet"> HD keyfiyyet </a>   </div>
+<div class="obyekt2">  <a href="" class="keyfiyyet"> YDX-Tek Part </a>   </div>
+<div class="obyekt3">  <a href="" class="filmkat"> FEM-Tek Part</a>    </div>
+<div class="obyekt3">  <a href="" class="filmkat"> UPLAY-Tek Part</a>  </div>
+<div class="obyekt3">  <a href="" class="filmkat"> FAST-Tek Part</a>   </div>
+
+
+
+<div class="videoEkran" >
+<!--Video elave edilmeli-->
+</div>
+
+</div>
+
+<!--Katogorialar hissesi-->
+<div class="katogoriyaKenarligi">
+
+<!--Serial katogoriyalari-->
+<div class="serialKatogorisi"> <b> Serial Katogoriyalari </b> </div>
+
+<!--Secimler-->
+
+<select class="secimler">
+    <option>  Serial secin...</option>
+    <optgroup label="Lucifer">
+        <option>Lucifer 1.sezon </option>
+        <option>Lucifer 2.sezon</option>
+        <option>Lucifer 3.sezon</option>
+    </optgroup>
+
+    <optgroup label="Black Mirror">
+        <option>Black Mirror 1.sezon</option>
+        <option>Black Mirror 2.sezon</option>
+    </optgroup>
+
+    <optgroup label="Sherlock">
+        <option>Sherlock 1.sezon</option>
+        <option>Sherlock 2.sezon</option>
+        <option>Sherlock 3.sezon</option>
+        <option>Sherlock 4.sezon</option>
+    </optgroup>
+
+    <optgroup label="Vikings">
+        <option>Vikings 1.sezon</option>
+        <option>Vikings 2.sezon</option>
+        <option>Vikings 3.sezon</option>
+        <option>Vikings 4.sezon</option>
+    </optgroup>
+</select>
+
+<div class="filmKatogorisi"> Film katogorileri</div>
+<div class="filmler"> <a href="" class="filmkat"> Aile filmleri</a> </div>
+<div class="filmler"> <a href="" class="filmkat"> Aksiyon filmleri</a></div>
+<div class="filmler"> <a href="" class="filmkat"> Belgesel filmleri</a></div>
+<div class="filmler"> <a href="" class="filmkat"> Cizgi filmler</a></div>
+<div class="filmler"> <a href="" class="filmkat"> Dram filmleri</a></div>
+<div class="filmler"> <a href="" class="filmkat"> Komedi filmleri</a></div>
+<div class="filmler"> <a href="" class="filmkat"> Korku filmleri</a></div>
+<div class="filmler"> <a href="" class="filmkat"> Macera filmleri</a></div>
+<div class="filmler"> <a href="" class="filmkat"> Savas filmleri </a></div>
+<div class="filmler"> <a href="" class="filmkat"> Spor filmleri</a></div>
+<div class="filmler"> <a href="" class="filmkat"> Tarih filmleri</a></div>
+<div class="filmler"> <a href="" class="filmkat"> Western filmleri</a></div>
+
+
+
+</div>
+  
+
+<div class="filmBilgileri">
+    <div style="width: 798px; height: 30px; background: black; border: 1px solid #4B4B4B; font-size: 20px; color: #95A911; padding: 0 20px; margin: 1px 0 0 0; border-radius: 2px; "> Film bilgileri</div>
+
+    <div style="width: 143px;height:210px ; margin: 20px 10px 30px 20px;border: 2px solid #4B4B4B; border-radius: 3px; float: left; ">
+        <img src="Lucifer-1.jpg" alt="Filmin logo resmi">
+    </div>
+    
+   <div class="bilgiler">
+       <br>
+        <span class="info1"> Film tipi: </span> <span class="info2" > Lucifer 1. Sezon </span><br> <br>
+        <span class="info1"> Yapim: </span> <span class="info2" > 2016 </span>  <br> <br>
+        <span class="info1"> IMDB Puani: </span> <span class="info2" > 8.3 </span><br> <br>
+        <span class="info1"> Yonetmen: </span> <span class="info2" > Tim Matheson </span> <br> <br>
+        <span class="info1"> Oyuncular: </span>  <span class="info2" > Tom Ellis, Lauren German, Kevin Alejandro </span> <br> <br>
+    </div>
+   
+</div>
+
+  <!--Yorumlaaar-->
+<div class="yorum" >
+   <div class="contyorum"> Yorumlar:</div>
+
+   
+  <form action=" " method="POST">
+    <div style="width: 440px ; height: 150px; float: left; margin: 10px 10px 0 10px;  ">
+        <textarea class="textYorum"> </textarea>
+    </div>
+    
+    
+    <div class="adinizKenarliq">
+      <div style="width:64px ; height: 26px;  float: left;">Adınız:</div>  
+      <div class="adiniziYazin"> <input type="text" name="ad" autocomplete="off">  </div>
+    </div>
+  
+    <div class="adinizKenarliq">
+      <div style="width:64px ; height: 26px;  float: left;">E-mail:</div>  
+      <div class="adiniziYazin"> <form> <input type="email" name="email" autocomplete="off"> </form> </div>
+    </div>
+     
+     <input type="submit" name="send" value="Yorumu Gonder" class="Gonder">
+    
+  
+  </form>
+
+</div>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,287 @@
+body{
+    background-image: url(1dd.jpg); 
+}
+
+
+ a.HomeSkillsWorks_Links:link  , a.HomeSkillsWorks_Links:visited{
+     color: #00bd58;
+     text-align: center;
+     text-decoration: none;
+     font-size: 23px;
+ } 
+ a.HomeSkillsWorks_Links:hover{
+     color: #ff4300;
+     font-size: 20px;
+     transition: 0.7s;
+
+ }
+ a.HomeSkillsWorks_Links:active{
+     color:#00bd58 ;
+ }
+ #Home_Skills_Works_{
+    float: left;
+    margin: 15px 25px 0 0;
+ }
+
+#PersonalInfo{
+    color:#FFDE00 ;
+    font-size: 30px;
+    margin: 260px 20px 5px 10px;
+}
+
+#BackDiv{
+    width: 1100px;
+    height: 550px;
+    float: left;
+    background: #1b1b1b;
+    margin: 20px 0 -10px 80px ;
+    padding: 15px 30px 0 50px;
+    border-radius: 15px;
+}
+
+
+
+#Frontend{
+    width: 300px ;
+    height: 170px;
+    margin: 15px 50px 15px 200px;
+    color: #4b4b4b;
+    text-align: center;
+    background: #c4c4c4;
+    font-size: 15px;
+    float: left;
+    border-radius: 10px;
+}
+
+#Frontend:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+
+#Backend{
+    width: 300px ;
+    height: 170px;
+    margin: 15px 50px 15px 40px;
+    color: #4b4b4b;
+    text-align: center;
+    font-size: 15px;
+    box-shadow: 10px 10px 10px #4b4b4b, -10px -10px -10px #4b4b4b;
+    background: #c4c4c4;
+    float: left;
+    border-radius: 10px;
+    
+}
+
+#Backend:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+
+
+
+#BackFrontText{
+    width: 400px ;
+    height: 35px;
+    color: #4b4b4b;
+    font-size: 25px;
+    text-align: center;
+    margin: 15px 0 0 -45px;
+}
+
+#Iconlar{
+    margin: 6px 0 0 0 ;
+    font-size:70px;
+    color: #00a44c;
+    margin: 0 0 -15px 0;
+}
+
+.Seviyyeler{
+   width: 1100px;
+   height: 320px;
+   clear: both;
+   color: #1b1b1b;
+   font-size: 18px;
+   margin: 225px 0 0 10px;
+   
+}
+
+.words{
+    float: left;
+    width: 13%;
+    height: 7%;
+    text-align: center;
+    background: #00bd58;
+    margin: 20px 0 0 0 ;
+    border-radius: 10px;
+}
+
+.prgrsdiv{
+    float: left;
+    width: 85%;
+    height: 7%;
+    border-radius: 10px;
+    margin: 20px 0 0 -15px ;
+    background: #c4c4c4;
+
+}
+
+.prgrs1{
+    width: 0px;
+    height: 60%;
+    background: #00bd58;
+    border-radius: 10px;
+    margin: 4px 0 0 -5px;
+    animation: prgrsanimation ;
+    animation-duration: 5s ;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+
+}
+@keyframes prgrsanimation{
+    from{ width: 0px;}
+    to{ width: 95% }
+}
+
+.prgrs11{
+    width: 0px;
+    height: 60%;
+    background: #00bd58;
+    border-radius: 10px;
+    margin: 4px 0 0 -5px;
+    animation: prgrsanimation1 ;
+    animation-duration: 5s ;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+
+}
+@keyframes prgrsanimation1{
+    from{ width: 0px;}
+    to{ width: 90% }
+}
+
+.prgrs2{
+    width: 0px;
+    height: 60%;
+    background: #00bd58;
+    border-radius: 10px;
+    margin: 4px 0 0 -5px;
+    animation: prgrsanimation2 ;
+    animation-duration: 5s ;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+
+}
+@keyframes prgrsanimation2{
+    from{ width: 0px;}
+    to{ width: 75% }
+}
+
+.prgrs3{
+    width: 0px;
+    height: 60%;
+    background: #00bd58;
+    border-radius: 10px;
+    margin: 4px 0 0 -5px;
+    animation: prgrsanimation3 ;
+    animation-duration: 5s ;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+
+}
+@keyframes prgrsanimation3{
+    from{ width: 0px;}
+    to{ width: 40% }
+}
+
+.prgrs4{
+    width: 0px;
+    height: 60%;
+    background: #00bd58;
+    border-radius: 10px;
+    margin: 4px 0 0 -5px;
+    animation: prgrsanimation4 ;
+    animation-duration: 5s ;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+
+}
+@keyframes prgrsanimation4{
+    from{ width: 0px;}
+    to{ width: 80% }
+}
+
+.prgrs5{
+    width: 0px;
+    height: 60%;
+    background: #00bd58;
+    border-radius: 10px;
+    margin: 4px 0 0 -5px;
+    animation: prgrsanimation5 ;
+    animation-duration: 5s ;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+
+}
+@keyframes prgrsanimation5{
+    from{ width: 0px;}
+    to{ width: 85% }
+}
+
+.prgrs6{
+    width: 0px;
+    height: 60%;
+    background: #00bd58;
+    border-radius: 10px;
+    margin: 4px 0 0 -5px;
+    animation: prgrsanimation6 ;
+    animation-duration: 5s ;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+
+}
+@keyframes prgrsanimation6{
+    from{ width: 0px;}
+    to{ width: 70% }
+}
+
+.prgrs7{
+    width: 0px;
+    height: 60%;
+    background: #00bd58;
+    border-radius: 10px;
+    margin: 4px 0 0 -5px;
+    animation: prgrsanimation7 ;
+    animation-duration: 5s ;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+
+}
+@keyframes prgrsanimation7{
+    from{ width: 0px;}
+    to{ width: 45% }
+}
+.faiz{
+    float: left;
+    margin: -2%  0 0 95% ;
+}
+

@@ -1,0 +1,105 @@
+body{
+    background-image: url(1dd.jpg);
+}
+#CommonHeaderDiv{
+    width: 1350px;
+    height: 50px ;
+    
+}
+
+#MyPortfolio{
+    color: #FFDE00   ;
+    margin: 10px 620px 0 20px;
+    font-size: 17px;
+    float: left;
+} 
+
+#MyPortfolio:hover{
+    -webkit-transform: rotateZ(-10deg);
+-ms-transform: rotateZ(-10deg);
+transform: rotateZ(-10deg);
+transition: 1s ease;
+cursor: default;
+}
+
+ a.HomeSkillsWorks_Links:link  , a.HomeSkillsWorks_Links:visited{
+     color: #c4c4c4 ;
+     text-align: center;
+     text-decoration: none;
+     font-size: 23px;
+ }
+ a.HomeSkillsWorks_Links:hover{
+     color: #ff4300;
+     font-size: 20px;
+     transition: 0.7s;
+
+ }
+ a.HomeSkillsWorks_Links:active{
+     color:#00bd58 ;
+ }
+ #Home_Skills_Works_{
+    float: left;
+    margin: 15px 25px 0 0;
+ }
+
+ #commondiv{
+     width: 1220px;
+     height: 510px ;
+     padding: 5px 0 0 0;
+     margin: 40px 0 0 65px;
+     border: 5px double #00bd58 ;
+     background: #4b4b4b;
+     border-radius: 10px;
+ }
+
+ #CedvelSekilli{
+     width: 1000px;
+     height: 280px;
+     padding: 20px 0 0 0;
+     margin: 40px 0 0 120px;
+     clear: both;
+ }
+
+ #div1{
+     width: 180px;
+     height: 300px;
+     font-size: 22px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     margin: -40px 610px 20px -10px;
+     color: #00bd58;
+     float: left;
+ }
+
+ img{
+     width: 400px;
+     height: 320px;
+     float: left;
+     margin: -40px 0 0 -530px;
+ }
+
+ #div3{
+     width: 237px;
+     height: 300px;
+     float: left;
+     clear: both;
+     font-size: 20px;
+     color: #00bd58; 
+     margin: -310px 0 20px 750px;
+ }
+
+ #TextSekilli{
+     width: 1180px;
+     height: 60px;
+     padding: 30px 0 0 0;
+     color: black;
+     margin: 5px 0 0 30px;
+     font-size: 18px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+#iconlar{
+    margin: 0 5px 0 0 ;
+    color: #FFDE00;
+}
+
+

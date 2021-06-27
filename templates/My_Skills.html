@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+        <title>My Skills</title>
+        <link rel="stylesheet" href="{% static 'My_Skills.css' %}">
+        <link rel="shortcut icon" href="https://www.pngfind.com/pngs/m/675-6758294_skills-png-icon-black-transparent-png.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Gulchohra Umarli, gulchohra.umarli.sh@gmail.com"> 
+        
+
+</head> 
+
+<body> 
+ 
+    <header>
+        <div id="CommonHeaderDiv">
+            
+        
+            <div style="float: left; margin: 15px 25px 0 730px">
+              <a href="{% url 'index' %}" class="HomeSkillsWorks_Links"  >   <i class="fa fa-home"></i> <b> Home </b>    </a>
+              
+            </div> 
+             
+            <div id="Home_Skills_Works_">
+             <a href="#" class="HomeSkillsWorks_Links" > <i class="fa fa-fire"></i> <b> My Skills </b>    </a>
+            </div>
+         
+            <div id="Home_Skills_Works_" >
+             <a href="{% url 'works' %}" class="HomeSkillsWorks_Links" >  <i class="fa fa-lightbulb-o"></i> <b> My Works </b>   </a>
+            </div>
+        
+            <div  id="Home_Skills_Works_">
+             <a href="{% url 'about' %}" class="HomeSkillsWorks_Links"> <i class="fa fa-id-card-o"></i> <b> About me </b>   </a>
+            </div>
+          </div>
+    </header>
+
+
+
+    <main>
+        <div id="BackDiv">
+        <div id="BackBorder">
+
+            <div id="Frontend">
+                <div id="BackFrontText"> Front-End</div>
+
+                <i class="fa fa-cogs" id="Iconlar" ></i>
+
+                <br> <br><br> HTML, CSS , Javascript . 
+            </div> 
+            
+            <div id="Backend">
+                <div id="BackFrontText"> Back-End</div>
+
+                <i class="fa fa-code" id="Iconlar"></i>
+                <br> <br><br>
+                C/C++, C# (.Net Core), Phyton (Django). 
+                
+            </div>
+            
+
+            <div class="Seviyyeler">
+                
+                <div class="words">HTML </div> <div class="prgrsdiv">  <div class="prgrs1"> </div>        <span class="faiz">95%</span> </div> 
+                <div class="words">CSS </div> <div class="prgrsdiv">  <div class="prgrs11" > </div>        <span class="faiz">90%</span> </div>  
+                <div class="words">Javascript </div> <div class="prgrsdiv">  <div class="prgrs3" > </div> <span class="faiz">40%</span> </div>  
+                <div class="words">C/C++ </div> <div class="prgrsdiv">  <div class="prgrs4" > </div>      <span class="faiz">80%</span></div> 
+                <div class="words"> C# </div> <div class="prgrsdiv">  <div class="prgrs5" > </div>        <span class="faiz">85%</span> </div>  
+                <div class="words">Phyton </div> <div class="prgrsdiv">  <div class="prgrs6" > </div>     <span class="faiz">70%</span> </div> 
+                <div class="words">Django </div> <div class="prgrsdiv">  <div class="prgrs7" > </div>     <span class="faiz">45%</span> </div>   
+                
+            </div>
+            
+        </div>
+        </div>
+
+        
+
+    </main>
+
+    
+
+
+
+</body>
+</html>

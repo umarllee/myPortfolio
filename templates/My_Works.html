@@ -1,0 +1,90 @@
+<!DOCTYPE html> 
+{% load static %}
+<html lang="en">
+<head> 
+        <title>My Works</title>
+        <link rel="stylesheet" href="{% static 'My_Works.css' %}"> 
+        <link rel="shortcut icon" href="https://www.freeiconspng.com/thumbs/work-icon/work-icon-informatique-musique-cinma-2.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Gulchohra Umarli, gulchohra.umarli.sh@gmail.com">
+       
+
+</head> 
+
+<body> 
+
+    <header>
+        <div id="CommonHeaderDiv"> 
+            <div id="MyPortfolio">
+              <i class="fa fa-briefcase"></i>  MyPortfolio
+            </div>
+        
+            <div style="float: left; margin: 15px 25px 0 0">
+              <a href="{% url 'index' %}" class="HomeSkillsWorks_Links"  >   <i class="fa fa-home"></i> <b> Home </b>    </a>
+              
+            </div>
+             
+            <div id="Home_Skills_Works_">
+             <a href="{% url 'skills' %}" class="HomeSkillsWorks_Links" > <i class="fa fa-fire"></i> <b> My Skills </b>    </a>
+            </div>
+        
+            <div id="Home_Skills_Works_" >
+             <a href="#" class="HomeSkillsWorks_Links" >  <i class="fa fa-lightbulb-o"></i> <b> My Works </b>   </a>
+            </div>
+        
+            <div  id="Home_Skills_Works_">
+              <a href="{% url 'about' %}" class="HomeSkillsWorks_Links" > <i class="fa fa-id-card-o"></i> <b> About me </b>   </a>
+            </div>
+          </div>
+    </header>
+
+    <main>
+        <a href="{% url 'index' %}" target="_blank">
+
+            <div id="div1">
+                My Portfolio
+                <br> <br>
+                <div id="icon1">  <i class="fa fa-folder-open"></i>  </div>
+            </div>
+
+        </a>
+
+        <a href="{% url 'film' %}" target="_blank">
+            <div id="div1">
+                Film&dizi
+                <br> <br>
+                <div id="icon1">  <i class="fa fa-toggle-right"></i>  </div>
+
+            </div>
+        </a>
+
+        <a href="{% url 'form' %}" target="_blank">
+            <div id="div1">
+                Interests Form
+                <br> <br>
+                <div id="icon1">  <i class="fa fa-newspaper-o"></i>  </div>
+            </div>
+        </a>
+
+
+        <a href=" {% url 'photography' %} " target="_blank">
+            <div id="div1">
+                Photography
+                <br> <br>
+                <div id="icon1">  <i class="fa fa-camera"></i>  </div>
+            </div>
+        </a>
+
+
+
+    </main>
+
+
+
+
+
+
+</body>
+</html>

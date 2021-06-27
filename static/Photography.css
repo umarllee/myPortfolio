@@ -1,0 +1,502 @@
+
+/* BEGINING OF COVER*/
+
+.loader_div{
+    width: 99%;
+    height: 98%;
+    display: block;
+    position: fixed;
+
+}
+
+.loadercommondiv{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: fixed;
+    background: black;
+    margin: -10px;
+    animation: loadercommondivv 5s forwards ; 
+    opacity: 1;
+    
+}
+
+
+
+@keyframes loadercommondivv{
+    from{  opacity: 1;}
+    to{ opacity: 0; }
+}
+
+.loaderoutdiv{
+    width: 200px;
+    height: 200px;
+    padding: 1px 0 0 0;
+    margin: 230px 550px;
+    background:#4E9884;
+    border-radius: 50%;
+    animation: loaderoutdivv 1s 1 backwards ;
+
+}
+
+@keyframes loaderoutdivv{
+    from
+    {
+    width: 200px;
+    height: 200px;
+    padding: 1px 0 0 0;
+    margin: 230px 550px;
+    border-radius: 50%;
+    }
+
+    to
+    {
+    width: 210px;
+    height: 205px;
+    padding: 6px 0 0 0;
+    margin: 220px 550px;
+    border-radius: 50%;
+    transform: rotateZ(-360deg);
+    }
+    
+}
+
+.loaderindiv{
+    
+    width: 150px;
+    height: 85px;
+    font-size: 18px;
+    padding:65px 0 0 0 ;
+    margin: 25px;
+    border-radius: 50%;
+    background:#C7D306;
+    animation: loaderindivv 1s 1 backwards ;
+}
+
+@keyframes loaderindivv{
+    from{
+        width: 150px;
+        height: 85px;
+        font-size: 18px;
+        padding:65px 0 0 0 ;
+        margin: 25px;
+        border-radius: 50%;
+    }
+
+    to{
+        width: 130px;
+        height: 70px;
+        font-size: 16px;
+        padding:55px 0 0 0 ;
+        margin: 40px;
+        transform: rotateZ(-360deg);
+        border-radius: 50%;
+    }
+    
+}
+
+/* END OF COVER*/
+
+
+.nav_div{
+    width: 100%;
+    max-width: 1347px;
+    height: 20%;
+    margin: -8px;
+    background: #ccf;
+    z-index: 1;
+    position: fixed;
+    display: block;
+    animation: nav_links_div_ 2.7s  forwards ; 
+}
+
+@keyframes nav_links_div_{
+    from{opacity: 0;}
+    to{ opacity: 1; }
+}
+
+
+.img_icon{
+    width: 8%;
+    height: 8%px;
+    float: left;
+    margin: 2% 0 0 1%;
+}
+
+.nature_word{
+    font-size: 300%;
+    color: #007436;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 1% 0 0 1.5%;
+    float: left;
+
+}
+
+.nav_links_div{
+    width: 20%;
+    height: 62%;
+    margin: 1.5% 0 0 48%;
+    padding: 2% 0 0 0 ;
+    float: left;
+}
+
+
+
+
+.nav_links:link, .nav_links:visited{
+    text-decoration: none;
+    font-size: 220%;
+    color: #007436;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0 0 50% 10%  !important;
+    
+
+}
+
+
+
+/*Nav END*/
+
+.background_{
+    width: 110%;
+    max-width: 1347px;
+    height: 660px;
+    margin: -10px;
+    background-size: cover;
+    background-image: url(background1.jpg);
+}
+
+/* START OF ABOUT-----------------------------------------------------*/
+
+.common_about_div{
+     width: 100%; 
+     margin: -6% 0 0 -7px;
+     padding: 8% 0 0 0;
+
+}
+
+.about{
+    width: 55%;
+    height: 360px;
+    font-size: 20px;
+    float: left;
+    color: #727272;
+    font-family: Arial, Helvetica, sans-serif ;
+    margin: 5% 0 0 4%;
+
+
+}
+
+.about_word{
+    font-size: 45px;
+    color: #007436;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 0 0 5% ;
+}
+
+.about_picture{
+    width: 400px;
+    height: 500px;
+    float: left;
+    margin: 3% 0 0 7%;
+    box-shadow: -10px -10px 5px #292929;
+}
+
+/* END OF ABOUT-----------------------------------------------------*/
+
+
+/* START OF GALLERY-------------------------------------------------*/
+.common_gallery_div{
+    
+    width: 1330px;
+    height: 900px;
+    margin: 500px 0 0 0;
+    padding: 10% 0 0 0;
+
+}
+
+.span_galerry_word{
+    font-size: 55px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #007436;
+    margin: 0 0 0 -2%;
+
+
+}
+
+.animal_waterfall_landscape_nav{
+    animation: animal_waterfall_landscape_nav_ 2.7s  forwards ;
+    position: relative;
+}
+
+@keyframes animal_waterfall_landscape_nav_{
+    from{ opacity: 0;}
+    to{opacity: 1;}
+}
+
+.animal_waterfall_landscape_div{
+    margin: 3% 0 0 36%;
+    width: 370px;
+    animation: awl_div 7s  normal ;
+}
+
+@keyframes awl_div{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+.animal_waterfall_landscape_link1:link, .animal_waterfall_landscape_link1:visited{
+    text-decoration: none;
+    font-size: 25px;
+    color: #007436;
+    border: 1px solid #727272;
+    border-radius: 4px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0 0 0 1.5%;
+    padding: 0 1% 0 1%;
+}
+
+
+
+.animal_waterfall_landscape_link2:link, .animal_waterfall_landscape_link2:visited{
+    text-decoration: none;
+    font-size: 25px;
+    color: #007436;
+    border: 1px solid #727272;
+    border-radius: 4px;
+    padding: 0 1% 0 1%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0 0 0 2%;
+
+}
+
+.animal_waterfall_landscape_link3:link, .animal_waterfall_landscape_link3:visited{
+    text-decoration: none;
+    font-size: 25px;
+    color: #007436;
+    border: 1px solid #727272;
+    border-radius: 4px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0 0 0 2%;
+    padding: 0 1% 0 1%;
+
+}
+
+.animal_waterfall_landscape_link1:hover , .animal_waterfall_landscape_link2:hover , .animal_waterfall_landscape_link3:hover{
+
+    background: #ccf ;
+    color: #4b4b4b;
+    transition: 0.5s;
+}
+
+.gallery_common{
+    width: 1345px;
+    height: 1810px;
+    margin: 5% 0 0 -0.6%;
+}
+
+.animal_commondiv{
+    width: 1330px;
+    height: 630px;
+    float: left;
+    animation: animal_waterfall_landscape_animation 2.7s  forwards;
+}
+
+@keyframes animal_waterfall_landscape_animation{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+.animal{
+    margin: 2% 0 0 2.6%;
+    float: left;
+    filter: grayscale(100%);
+}
+
+.animal:hover{
+    filter: grayscale(0%);
+    transition: 1s;
+
+}
+.animal1_3{
+    margin: 6% 0 0 2.6%;
+    float: left;
+    filter: grayscale(100%);
+}
+
+.animal1_3:hover{
+    transition: 1s;
+    filter: grayscale(0%);
+}
+
+
+
+.waterfall_commondiv{
+    float: left;
+    width: 1330px;
+    height: 630px;
+    animation: animal_waterfall_landscape_animation 2.7s  forwards;
+}
+
+
+.waterfall{
+    margin: 2% 0 0 2.6%;
+    float: left;
+    filter: grayscale(100%);
+}
+
+.waterfall:hover{
+    filter: grayscale(0%);
+    transition: 1s;
+}
+
+.waterfall1_3{
+    margin: 1% 0 0 2.6%;
+    float: left;
+    filter: grayscale(100%);
+}
+
+.waterfall1_3:hover{
+    transition: 1s;
+    filter: grayscale(0%);
+}
+
+
+
+.landscape_commondiv{
+    float: left;
+    width: 1330px;
+    height: 630px;
+    animation: animal_waterfall_landscape_animation 2.7s  forwards;
+
+}
+
+@keyframes animal_waterfall_landscape_animation{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+.landscape1_3{
+    margin: 2.5% 0 0 2.6%;
+    float: left;
+    filter: grayscale(100%);
+
+}
+
+.landscape1_3:hover{
+    transition: 1s;
+    filter: grayscale(0%);
+}
+
+.landscape{
+    margin: -5% 0 0 2.6%;
+    float: left;
+    filter: grayscale(100%);
+}
+
+.landscape:hover{
+    transition: 1s;
+    filter: grayscale(0%);
+
+}
+
+/* END OF GALLERY------------------------------------------------*/
+
+.contact_commondiv{
+    width: 1345px;
+    height: 600px;
+    margin: 88% 0 5% -0.5% ;
+    padding: 8% 0 0 0;
+    
+}
+
+.contact_{
+    padding: 2% 0 2% 0;
+    font-size: 25px;
+    background: rgb(236, 236, 245);
+    position: relative;
+    animation: contact_animation 4s  forwards ;
+
+}
+
+@keyframes contact_animation{
+    from{ opacity: 0;}
+    to{opacity: 1;}
+
+}
+
+
+.name_email{
+    margin: 3% 0 0 25%;
+}
+
+input[type="text"], input[type="email"] {
+    width: 65%;
+    height: 30px;
+    background: #007436;
+
+}
+
+::placeholder{
+    color: #c4c4c4 ;
+    font-size: 18px;
+}
+
+textarea{
+    background: #007436;
+    color: #c4c4c4 ;
+    font-size: 16px;
+}
+
+input[type="submit"]{
+    background: #007436;
+    color: #c4c4c4;
+    width: 15%;
+    height: 30px;
+    font-size: 20px;
+    margin: 0 0 0 43%;
+
+}
+
+/* Start footer------------------------------------*/
+
+.end{
+    width: 880px;
+    margin: 0 0 -1% -1%;
+    padding: 0.5% 0 0 35%;
+    background: #292929;
+    color: #007436;
+    font-size: 18px;
+    animation: end_animation 2.7s  forwards ;
+    position: absolute;
+    
+
+}
+
+@keyframes end_animation{
+    from{ opacity: 0;}
+    to{opacity: 1;}
+
+}
+
+
+
+.footer_icon:link,.footer_icon:visited{
+    text-decoration: none;
+    margin: 0 0 0 8%;
+    color: #727272;
+    font-size: 35px;
+    position: relative;
+}
+
+
+
+.footer_icon:hover{
+    color: #007436;
+}
+
+
+
+
+

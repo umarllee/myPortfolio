@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+        <title>About Me</title>
+        <link rel="stylesheet" href=" {% static 'About_Me.css' %}">
+        <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRP2jzDOdj6Xa4mfbvinWIfY6ddeCoyN9bcmv6KzSriSffVxmToBhaQ5cgLuOAVfkAYME&usqp=CAU">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Gulchohra Umarli, gulchohra.umarli.sh@gmail.com">
+       
+
+</head>
+
+<body>
+  
+<header>
+     <div id="CommonHeaderDiv">
+    <div id="MyPortfolio">
+      <i class="fa fa-briefcase"></i>  MyPortfolio
+    </div>
+
+    <div style="float: left; margin: 15px 25px 0 0">
+      <a href="{% url 'index' %}" class="HomeSkillsWorks_Links" >   <i class="fa fa-home"></i> <b> Home </b>    </a>
+      
+    </div>
+     
+    <div id="Home_Skills_Works_">
+     <a href="{% url 'skills' %}" class="HomeSkillsWorks_Links"> <i class="fa fa-fire"></i> <b> My Skills </b>    </a>
+    </div>
+
+    <div id="Home_Skills_Works_" >
+     <a href="{% url 'works' %}" class="HomeSkillsWorks_Links" >  <i class="fa fa-lightbulb-o"></i> <b> My Works </b>   </a>
+    </div>
+
+    <div  id="Home_Skills_Works_">
+     <a href="#" class="HomeSkillsWorks_Links" > <i class="fa fa-id-card-o"></i> <b> About me </b>   </a>
+    </div>
+  </div>
+ 
+</header> 
+
+
+<main>
+        <div id="commondiv">
+
+        <div id="CedvelSekilli">
+            
+          <div id="div1">
+            <br><br> <br>
+            <div >   Name, Last Name: </div>  <br>
+            <div >   Birth Date: </div>  <br>
+            <div >   Habitation: </div>  <br>
+            <div >   Telephone:  </div>  
+          </div>
+
+          <div id="div2">
+            <img src="{% static 'About Me Icon.png' %}" alt="About Me Icon">
+          </div>
+           
+
+
+
+           <div id="div3">
+            <br><br><br>
+            <div > <i class="fa fa-user" id="iconlar"></i> Gulchohra Umarli</div> <br>
+            <div > <i class="fa fa-clock-o" id="iconlar"></i> 13.08.2002</div>  <br>
+            <div > <i class="fa fa-map-marker" id="iconlar"></i> Bayan,Oghuz, Azerbaijan</div>  <br>
+            <div > <i class="fa fa-phone-square" id="iconlar"></i> (+994) 70 258 44 74</div>  
+          </div>
+
+        </div>
+
+
+        <div id="TextSekilli">
+         <i class="	fa fa-newspaper-o" id="iconlar"> </i> <b> I studied secondary school in Bayan village (2008-2019). Now I am studying Azerbaijan Oil and Industry University (ASOIU),Computer Engineering. <br>
+         I love coding and I try develop myself at this area everytime.I started learning coding 1 year ago.  I am learning everything about coding myself from Udemy,Youtube, Google Chrome and etc.  I can work comfortably with a team. I’m responsible, hardworking, disciplined, funny and I know Azerbaijani and Turkish languages very well and English well.</b>
+        </div>
+
+    </div>
+</main>
+
+
+</body>
+</html>

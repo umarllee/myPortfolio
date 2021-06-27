@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+        <title>CV</title>
+        <link rel="stylesheet" href="{% static 'My_Cv.css' %} ">
+        <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRP2jzDOdj6Xa4mfbvinWIfY6ddeCoyN9bcmv6KzSriSffVxmToBhaQ5cgLuOAVfkAYME&usqp=CAU">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Gulchohra Umarli, gulchohra.umarli.sh@gmail.com">
+       
+
+</head>
+
+<body>  
+
+<header>
+
+<div id="Background">
+  <div id="_header"> 
+          I Am <b> Gulchohra Umarli </b> 
+          <nav id="Social_Networks_nav">
+                <a href="https://www.instagram.com/umarllee/" class="Social_Networks_links" target="_blank"> <i class="fa fa-instagram"></i> Instagram | </a> 
+                <a href="https://www.facebook.com/gulchohra.umarli/" class="Social_Networks_links" target="_blank"> <i class="fa fa-facebook"></i> Facebook | </a>
+               <a href="https://twitter.com/umarllee" class="Social_Networks_links" target="_blank"> <i class="fa fa-twitter"></i> Twitter  </a> 
+          </nav>
+
+          
+
+  </div>
+</div>
+
+</header>
+
+                    <!-- Arxa fon sekli ve uzerinde yerlesen her seyin kodu burada bitdi-->
+<main>
+
+<div id="div1">  <!--Div1 About me ve sekil hissesi--> 
+        <img src=" {% static 'MyPhoto.jpg' %} "  id="FrameForPhoto" >
+
+
+        <div id="AboutMeText">
+          <div style="font-size: 25px;padding: 0 0 0 10px;color: #a10055;"> <b> About Me </b> </div>
+          <div style="font-size: 15px; padding: 0 0 0 7px"> <b> Full Stack Web Developer </b> </div>
+          
+          <br> 
+          <div id="_textMe">
+                Hi, my name is Gulchohra Umarli. I was born in Oghuz in 13.08.2002 (19 age). I am Full Stack Web Developer. 
+                I started learning coding 1 year ago. I love coding and I learn everything myself, always work on myself. 
+                I can work comfortably with a team.I’m responsible, hardworking, disciplined, funny and I know  Azerbaijani and Turkish languages very well and English well.  
+
+                <br><br><br><br><br>
+
+                 
+                  <i class="fa fa-phone-square" id="networkIconlar1"></i>  (+994) 70 258 44 74 
+                  <i class="fa fa-envelope" id="networkIconlar2"></i>  gulchohra.umarli.sh@gmail.com
+
+                
+          </div>
+        </div>
+    
+
+        <div id="Education">
+                <div style="font-size: 25px;padding: 0 0 0 10px;color: #a10055;"> <b> Education</b> </div>
+                 
+                <br><br>
+                Secondary school: <br> Oghuz region Bayan village (2008-2019).  <br><br> <br>
+                Bachelor: <br> Azerbaijan Oil and Industry University (2019-2023).
+
+                
+
+
+        </div>
+        
+
+
+</div>
+
+</main>
+
+
+<footer>
+        <div id="div2">  <!--Div2  hissesi-->
+        
+                <div id="works" > <i class="fa fa-gears"></i> <b> Works </b></div>
+                <br><br> <br>
+                <div id="FirstWork" style="float: left;">
+                     <a href="{% url 'index' %}" target="_blank">  <i class="fa fa-briefcase" id="FirstWorkIcon"> </i> </a>
+                     <p id="p1"> It my own characteristic website and <br> my first big project.</p> 
+                </div>
+        
+                <div id="SecondWork" style="float: left;">
+                        <a href="{% url 'film' %}" target="_blank">  <i class="fa fa-film" id="SecondWorkIcon"> </i> </a>
+                        <p id="p2"> It my website for watching your lovely film and serial. (It just coding for learning.)   <br></p> 
+                </div>
+        
+                <div id="ThridWork" style="float: left;">
+                        <a href="{% url 'photography' %}" target="_blank">  <i class="fa fa-camera" id="SecondWorkIcon"> </i> </a>
+                        <p id="p2"> It is a photographer website that we can see his/her works and contact with him/her in here. </p> 
+                </div>
+        
+                
+                <div id="created_by"> Created by Umarli | <i class="fa fa-copyright"> </i> All rights All rights reserved </div>
+        </div>
+        
+        </footer>
+
+
+
+
+</body>
+</html>

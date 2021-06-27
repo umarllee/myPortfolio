@@ -1,0 +1,224 @@
+body{
+    background: #006560;
+    background-image: url(backgr.jpg);
+    background-repeat: no-repeat;
+} 
+
+img{
+    width: 1350px;
+    height: 600px;
+}
+
+.Welcome{
+    width: 760px;
+    height: 80px;
+    padding: 5px 0 5px 0;
+    margin: 10px 0 0 280px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70px;
+    text-align: center;
+    color: #008b84;
+    float: left;
+    animation: welcome 4s 3 ;
+}
+
+@keyframes welcome{
+    0% {
+        opacity: 100%;
+    }
+    50%{
+        opacity: 80%;
+        color: #55d6d0 ;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+.Welcome:hover{
+    cursor: default;
+}
+
+
+#signUp{
+    width: 80px;
+    height: 30px;
+    font-size: 21px;
+    text-align: center;
+    margin: 10px 50px 0 80px;
+    background: #727272;
+    color: #00bd58;
+    border-radius: 10px;
+    float: left;
+}
+
+#signUp:hover{
+    background: #00bd58;
+    color: #4b4b4b;
+    width: 85px;
+    height: 32px;
+    padding: 3px 0 0 0;
+    transition: 0.4s;
+}
+
+#signIn{
+    width: 80px;
+    height: 30px;
+    font-size: 21px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px 0 0 10px;
+    background: #727272;
+    color: #00bd58;
+    float: left;
+}
+
+#signIn:hover{
+    background: #00bd58;
+    color: #4b4b4b;
+    width: 85px;
+    height: 32px;
+    padding: 3px 0 0 0; 
+    transition: 0.4s;
+}
+
+
+h2{
+    width: 600px;
+    text-align: center;
+    font-family:  Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 29px;
+    margin: 10px 0 30px 370px;
+    color: #ffde00;
+    float: left;
+}
+
+h2:hover{
+    cursor: default;
+}
+
+#FormIcon{
+    margin: 0 10px 0 0;
+    background: 0;
+}
+
+.solDiv{
+    width: 460px;
+    height: 343px;
+    font-size: 21px;
+    font-family: Constantia;
+    margin: 0 60px -50px 100px;
+    padding: 20px;
+    color: #00a79f;
+    border: 5px double #008b84;
+    border-radius: 10px;
+    clear: both;
+    float: left;
+}
+
+.sagDiv{
+    width: 410px;
+    height: 220px;
+    margin: 0 50px 20px 70px;
+    padding: 30px 0 20px 70px;
+    font-size: 23px;
+    font-family: Constantia;
+    border: 5px double #008b84;
+    border-radius: 10px;
+    color: #00a79f;
+    float: left;
+}
+
+input[type=text]{
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 10px 0 0 10px;
+    background: #a9a9a9;
+}
+
+
+
+::placeholder{
+    color: #1b1b1b;
+    font-family: Lucida Sans Unicode;
+}
+textarea{
+    margin: 7px 0 0 0;
+    border-radius: 10px;
+    background: #a9a9a9;
+    font-size: 15px;
+    border: 2px solid  #008b84;
+}
+
+
+
+
+
+input[type=radio]{
+     margin: 10px 0 20px 70px;
+     
+}
+
+select{
+    width: 200px;
+    height: 25px;
+    font-size: 16px;
+    border-radius: 7px;
+    font-family: Segoe UI Black;
+    margin: 10px 0 10px 50px ;
+    background: #a9a9a9;
+    
+}
+
+
+
+input[type=submit]{
+    width: 90px;
+    height: 40px;
+    font-size: 25px;
+    font-family: Bahnschrift SemiBold;
+    background: #008b84;
+    border-radius: 10px;
+    border: 0;
+}
+
+input[type=submit]:hover{
+    width: 95px;
+    height: 45px;
+    transition: 0.4s;
+}
+
+
+#Isub{
+
+    margin: 40px 0 0 0px ;
+    text-align: center;
+    background: #008b84;
+    border-radius: 10px;
+    
+}
+
+
+
+.Submit{
+    margin: -10px 0 0 230px;
+    font-size: 28px;
+    float: left;
+}
+
+#Reset{
+    margin: -60px 0 0 200px;
+    font-size: 27px;
+    float: left;
+}
+
+#Footer{
+    width: 100px;
+    height: 18px;
+    clear: both;
+    color: #ffde00;
+    margin: 12px 0 -7px 650px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}

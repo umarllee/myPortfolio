@@ -1,0 +1,88 @@
+body{
+    background-image: url(1dd.jpg);
+}
+
+#CommonHeaderDiv{
+    width: 1320px;
+    height: 50px ;
+    
+}
+
+#MyPortfolio{
+    color: #FFDE00   ;
+    margin: 10px 630px 0 20px;
+    font-size: 18px;
+    float: left;
+}
+
+#MyPortfolio:hover{  
+    -webkit-transform: rotateZ(-10deg);
+-ms-transform: rotateZ(-10deg);
+transform: rotateZ(-10deg);
+transition: 1s ease;
+cursor: default;
+}
+
+ a.HomeSkillsWorks_Links:link  , a.HomeSkillsWorks_Links:visited{
+     color: #FFDE00 ;
+     text-align: center;
+     text-decoration: none;
+     font-size: 23px;
+ }
+ a.HomeSkillsWorks_Links:hover{
+     color: #f93 ;
+     font-size: 20px;
+     transition: 0.7s;
+
+ }
+ a.HomeSkillsWorks_Links:active{
+     color:#00bd58 ;
+ }
+ #Home_Skills_Works_{
+    float: left;
+    margin: 15px 25px 0 0;
+ }
+
+#PersonalInfo{
+    color:#FFDE00 ;
+    font-size: 30px;
+    margin: 260px 20px 5px 10px;
+}
+
+#div1{
+    width: 360px;
+    height: 180px;
+    margin: 50px 60px 20px 20px ;
+    padding: 20px 0 0 0;
+    float: left;
+    font-size: 45px;
+    border-radius: 10px;
+    background: #4b4b4b ;
+}
+
+#div1:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+
+#icon1{ 
+    width: 370px;
+    height: 110px;
+    font-size: 120px;
+    margin:-50px 0 0 0
+}
+
+a:link, a:visited{
+    color: #00bd58 ;
+    text-align: center;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+a:hover,a:active{
+    color: #FFDE00;
+    
+}
+

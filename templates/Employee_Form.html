@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+	<title>Employee Form</title>
+	<link rel="stylesheet" href="{% static 'Form.css' %}">
+	<link rel="shortcut icon " href="http://cdn.onlinewebfonts.com/svg/img_349207.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Gulchohra Umarli, gulchohra.umarli.sh@gmail.com">
+</head>
+
+<body>  
+
+<header>
+
+	<div class="Welcome">
+        Welcome to our website!
+	</div>
+
+	
+		<a href="{% url 'signup' %}" target="_blank"> 
+			<div id="signUp"> <strong> Sign Up </strong> </div>
+		</a>
+
+		<a href="{% url 'signin' %}" target="_blank"> 
+			<div id="signIn"> <strong> Sign In </strong> </div>
+		</a>
+	
+
+	<h2 > <strong>  <i class="fa fa-drivers-license" id="FormIcon"></i> Employee interests survey form:  </strong>  </h2>
+
+</header>
+
+
+<main>
+<form method="POST">
+	<div class="solDiv">   <!--Tell me about yourself'e qeder olan (oda daxil) hissesi-->
+	    
+	        Enter your name:	<input type="text" name="ad" placeholder="  ..." autocomplete="off" required="">
+	        
+	<br><br>
+	        Enter your surname:	<input type="text" name="soyad" placeholder=" ..." autocomplete="off" required="">
+	        
+	<br><br>
+			Enter your depertmant: <input type="text" name="departament" placeholder="  ..." autocomplete="off" required="">
+			
+	<br><br>
+            Please tell us about yourself:  <br>
+            <textarea rows="7" cols="53" ></textarea> 
+              <br><br>
+        
+
+
+    </div>
+         
+    <div class="sagDiv">   <!--Hansi zovqlerinin oldugu hisse-->
+        Do you like playing outdoor game? <br>
+        <label >
+	        <input type="radio" name="Yes">Yes
+		</label>
+        
+		<label>
+	        <input type="radio" name="Yes">No
+		</label>	
+		
+		<br>
+			 
+		 What type of music do you like?   <br>
+		 
+ 		    <select id="Select1">
+ 			    <option> Hip-Hop  </option>
+ 			    <option> Pop</option>
+ 			    <option> Classic </option>
+ 			    <option>Jazz</option>
+ 			    <option>Opera music</option>
+
+ 		    </select>  
+              <br>
+
+		 What genre of movies do you like? <br>
+		 <div>
+ 		    <select >
+ 			    <option>Comedy</option>
+ 			    <option>Thrilled</option>
+ 			    <option>Love story</option>
+ 			    <option>Biopic</option>
+ 			    <option>Adventure</option>
+ 		    </select>
+		</div>
+
+
+	</div> <!--Sag div sonu-->
+	
+	<br><br>
+			 
+	 <!--  Submit ve Reset  buttonlari--> 
+		
+	<div class="Submit"> 
+		<i class="fa fa-send" id="Isub"> 
+			<input type="submit" name="gonder" value="Submit "> 
+		</i> 
+	</div>
+
+	  
+    
+
+
+</form>
+</main>
+
+
+</body>
+</html>

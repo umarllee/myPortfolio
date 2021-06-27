@@ -1,0 +1,174 @@
+body{
+     background:black;
+}
+
+
+#Background{
+    width: 1330px; 
+    height: 355px;
+    background-image: url(Cvbackground.jpg);
+    background-repeat: no-repeat ;
+    padding: 170px 0 0 3px ;
+}
+
+#_header{
+    width: 380px;
+    height: 80px;
+    font-size: 35px;
+    margin: -10px 0 10px 480px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    clear: both;
+    float: left;
+} 
+#Social_Networks_nav{
+    font-size: 14px;
+    margin: 20px 0 0 40px ;
+    font-family:  arial black;
+}
+a.Social_Networks_links:link, a.Social_Networks_links:visited{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+a.Social_Networks_links:hover,a.Social_Networks_links:active{
+    font-size: 15px ;
+    color: #a10055;
+}
+
+
+
+#CvIcon{
+    width: 200px ;
+    height: 25px;
+    padding: 5px;
+    color: #c4c4c4;
+    margin: 0 10px 10px 14px;
+    background: #a10055;
+    border-radius: 4px;
+    float:left;
+    font-size: 19px;
+}
+
+a.Cv:link  ,  a.Cv:visited{
+    color: #c4c4c4 ;
+    text-decoration: none;
+    text-align: center;
+    font-size: 19px;
+    
+}
+
+a.Cv:hover{
+   color: #292929;
+   font-size: 18px;
+}
+a.Cv:active{
+   color: #760000; ;
+}
+
+/* Arxa fon sekli ve uzerinde yerlesen her seyin kodu burada bitdi */
+
+#FrameForPhoto{
+    width: 320px;
+    height: 320px;
+    background: black;
+    clear: both;
+    margin: 0 0 0 60px;
+    float: left;
+    border-radius: 150px;
+    border: 0;
+}
+
+#AboutMeText{
+    width: 440px;
+    height: 330px;
+    margin: 0 35px 0 70px ;
+    color: #c4c4c4;
+    font-family: Lucida Sans Unicode;
+    font-size: 19px;
+    float: left;
+}
+
+#div1{
+    height: 330px;
+    margin: -25px 0 0 0;
+}
+
+#_textMe{
+    font-family: Calibri Light ;
+    font-size: 16px;
+}
+
+#networkIconlar1{
+    font-size: 17px;
+    color: #a10055;
+}
+
+#networkIconlar2{
+    margin: 0 0 0 25px;
+    font-size: 17px;
+    color: #a10055;
+}
+
+#div2{
+    width: 1335px;
+    height: 300px;
+    background: #1b1b1b;
+}
+
+#works{
+    width:160px;
+    height: 30px;
+    margin: 30px 0 0 580px;
+    padding: 15px 0 0 0;
+    color: #c4c4c4;
+    font-size: 33px;
+    font-family: Lucida Sans Unicode;
+}
+
+#FirstWorkIcon{
+    font-size:60px;
+    color: #a10055;
+    margin: 15px 100px 0 240px ;
+}
+
+#p1{
+    width: 250px;
+    text-align: center;
+    margin: 0 0 0 140px;
+    font-size: 16px;
+    color: #c4c4c4;
+}
+
+#SecondWorkIcon{
+    font-size:55px;
+    color: #a10055;
+    margin: 15px 100px 0 230px ;
+}
+
+#p2{
+    width: 250px;
+    text-align: center;
+    margin: 5px 0 0 130px;
+    font-size: 16px;
+    color: #c4c4c4;
+}
+
+#created_by{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c4c4c4;
+    text-align: center;
+    margin: 180px 0 0 0;
+
+}
+
+#Education{
+    width: 400px;
+    height: 310px;
+    color: #c4c4c4;
+    font-size: 16px;
+    float: left;
+    text-align: center;
+}
