@@ -10,7 +10,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Gulchohra Umarli, gulchohra.umarli.sh@gmail.com">
 </head>
-
+ 
 <body>
 
     <header>
@@ -46,7 +46,7 @@
             
             <div id="ContactIcon"> <i class="fa fa-book" ></i> <b> Contact: </b> </div>
              
-            <form action="" method="POST">
+            <form action="{% url 'contact' %}" method="POST">
                 {% csrf_token %}
 
                 <div class="contact">

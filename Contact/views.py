@@ -10,7 +10,7 @@ from django.urls import reverse_lazy
 class ContactView(FormView):
     template_name = 'My_Contact.html' 
     form_class = ContactForm
-    success_url= reverse_lazy('contact')
+    success_url= reverse_lazy('contact') 
 
     def form_valid(self,form): 
         form.save()
