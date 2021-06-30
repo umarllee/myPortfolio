@@ -46,7 +46,7 @@
             
             <div id="ContactIcon"> <i class="fa fa-book" ></i> <b> Contact: </b> </div>
              
-            <form action="{% url 'contact' %}" method="GET">
+            <form action="{% url 'contact' %}" method="POST">
                 {% csrf_token %}
 
                 <div class="contact">
