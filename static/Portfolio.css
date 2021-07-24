@@ -1,5 +1,6 @@
 body{
     background-image: url(1d.jpg);
+    background-repeat: no-repeat;
 }
 #CommonHeaderDiv{
     width: 1320px;
