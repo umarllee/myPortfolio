@@ -3,6 +3,8 @@ body{
     background-image: url(1d.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    margin: 0;
+    padding: 0;
 }
 #CommonHeaderDiv{
     width: 1320px;
