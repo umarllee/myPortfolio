@@ -3,8 +3,7 @@ body{
     background-image: url(1d.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    margin: 0;
-    padding: 0;
+    
 }
 #CommonHeaderDiv{
     width: 1320px;
@@ -144,7 +143,7 @@ a.Cv:active{
     color: #c4c4c4;
     font-family: 'Trebuchet MS', sans-serif;
     float: left;
-    margin: 100px 0 0 480px  ;
+    margin: 100px 0 5px 480px  ;
     
 }
 
@@ -172,3 +171,9 @@ a.Social_Networks_links:hover {
 a.Social_Networks_links:active{
   color: green;
 } 
+
+*{
+
+    padding: 0px;
+    margin: 0px;
+}
